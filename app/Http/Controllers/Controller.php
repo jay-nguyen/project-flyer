@@ -9,4 +9,11 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 abstract class Controller extends BaseController
 {
     use DispatchesJobs, ValidatesRequests;
+
+    // public function __construct() 
+    // {
+    // 	view()->share('signedIn', Auth::check());
+
+    // 	view()->share('user', Auth::user());
+    // }
 }
