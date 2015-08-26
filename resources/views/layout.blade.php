@@ -31,7 +31,7 @@
             <p class="navbar-text navbar-right">
                 Hello, {{ Auth::user()->name }}
             </p>
-          @endif
+        @endif
         </div><!--/.nav-collapse -->
       </div>
     </nav>
